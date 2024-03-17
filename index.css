@@ -1,0 +1,520 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
+body{
+    overflow-x: hidden;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(-0deg, #dadada, #fff);
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    position: relative;
+}
+.container2{
+    background: linear-gradient(0deg, #252525, #252525);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.container3{
+    background: linear-gradient(0deg, #dadada, #fff);
+    background-repeat: no-repeat;
+    height: calc(fit-content - 200vh);
+}
+.container4{
+    background: linear-gradient(0deg, #252525, #252525);
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.container5{
+    background: linear-gradient(0deg, #dadada, #fff);
+    background-repeat: no-repeat;
+}
+.container6{
+    background: linear-gradient(0deg, #252525, #252525);
+    background-repeat: no-repeat;
+    
+}
+.rounded-circle{
+    /*background: linear-gradient(45deg, #dadada, #fff);*/
+    background-image: url(images/building-839362_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    width: 200vh;
+    height: 200vh;
+    margin-top: -50vh;
+    margin-left: 20vw;
+}
+.rounded-circle2{
+    background: linear-gradient(45deg, #dadada, #fff);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200vh;
+    height: 200vh;
+    margin-top: -150vh;
+    margin-left: 20vw;
+}
+.rounded-circle3{
+    background: linear-gradient(45deg, #9c9c9c, #fff);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200vh;
+    height: 200vh;
+    margin-top: 15vh;
+    margin-left: -100vw;
+}
+.rounded-circle4{
+    background: linear-gradient(45deg, #9c9c9c, #fff);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200vh;
+    height: 200vh;
+    margin-top: -85vh;
+    margin-left: -100vw;
+}
+.rounded-circle5{
+    background: linear-gradient(45deg, #9c9c9c, #fff);
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 200vh;
+    height: 200vh;
+    margin-top: -185vh;
+    margin-left: -100vw;
+}
+.rounded-circle6{
+    background: linear-gradient(45deg, #cacaca, #fff);
+    border-radius: 50%;
+    width: 200vh;
+    height: 200vh;
+    margin-top: 35vh;
+    margin-left: 20vw;
+}
+.rounded-circle7{
+    background: linear-gradient(45deg, #cacaca, #fff);
+    border-radius: 50%;
+    width: 200vh;
+    height: 200vh;
+    margin-top: -50vh;
+    margin-left: 20vw;
+}
+.navbar{
+    position: fixed;
+    z-index: 200;
+    top: 20px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.logo{
+    height: 40px;
+    border-radius: 10px;
+}
+.dropdown-menu{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    align-items: end;
+    justify-content: center;
+}
+
+.dropdown-menu div{
+    background: #000;
+    border-radius: 10px;
+    height: 6px;
+}
+.links{
+    background: #000000;
+    border-radius: 15px;
+    width: 230px !important;
+    height: fit-content !important;
+    padding: 40px 10px 20px 10px;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: -2px;
+    right: 18px;
+}
+.links a{
+    padding: 15px;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.links a:hover{
+    background: #ffffff;
+    color: #000000;
+}
+.dropdown-menu:hover .links{
+    display: flex;
+}
+.line1{
+    width: 40px;
+}
+.line2{
+    width: 20px;
+}
+.line3{
+    width: 30px;
+}
+
+.content{
+    z-index: 3;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    height: calc(100vh - 40px);
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content-body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+    height: 100%;
+}
+.body{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.direction{
+    flex-direction: row-reverse;
+}
+.body2{
+    padding: 20px;
+    border-radius: 15px;
+    background: #ffffff3d;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.body3{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: center;
+}
+.body-body{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.body-body div{
+    padding: 20px;
+    border-radius: 15px;
+    background: #dadada;
+    min-width: 200px;
+    max-width: 400px;
+    filter: drop-shadow(15px 15px 25px #00000015);
+}
+.body h1, .body3 h1{
+    font-size: 35pt;
+    font-weight: 300;
+}
+.body p{
+    font-size: 12pt;
+    font-weight: 300;
+    max-width: 300px; 
+}
+.banner-image{
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-image img{
+    width: 70vw;
+    max-width: 600px;
+}
+
+.apply{
+    padding: 10px 20px;
+    background: #000;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    width: fit-content;
+}
+.contacts{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #00000078;
+}
+.contacts div{
+    height: 30px;
+    width: 30px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contacts div i{
+    color: #fff;
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    fill: #000;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.contact p{
+    text-align: center;
+}
+form{
+    margin-top: 20px;
+    width: 300px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background: #ffffff9a;
+    border-radius: 10px;
+    /* box-shadow: -15px 15px 45px #000; */
+    border: 1px solid#000000;
+}
+form label{
+    margin-top: 5px;
+    font-size: 20px;
+}
+form input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #000;
+    padding: 0 10px;
+}
+form textarea{
+    height: 100px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid #000;
+    resize: none;
+    padding: 10px;
+}
+form .button{
+    margin-top: 10px;
+    height: 40px;
+    background: #000000;
+    font-size: 20px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+form:hover ~ .contacts{
+    display: none;
+    opacity: 0;
+}
+@media (min-width: 800px){
+    .contacts{
+    position: fixed;
+    gap: 40px;
+    flex-direction: column;
+    left: 10px;
+    right: unset;
+    bottom: 10px;
+    }
+}
+@media screen and (min-width: 280px) {
+    .body, .body2, .body3{
+        font-size: 8pt;
+        max-width: unset;
+    }
+    .body h1, .body3 h1{
+        font-size: 25pt;
+        font-weight: 300;
+    }
+    .body p, .body2 p{
+        font-size: 8pt;
+        font-weight: 300;
+        max-width: unset; 
+    }
+    .body-body div{
+        max-width: unset;
+    }
+}
+@media screen and (min-width: 360px) {
+    .body, .body2, .body3{
+        font-size: 8pt;
+        max-width: 300px;
+    }
+    .body h1, .body3 h1{
+        font-size: 25pt;
+        font-weight: 300;
+    }
+    .body p, .body2 p{
+        font-size: 8pt;
+        font-weight: 300;
+    }
+}
+@media screen and (min-width: 412px) {
+    .body, .body2, .body3{
+        font-size: 12pt;
+    }
+    .body h1, .body3 h1{
+        font-size: 30pt;
+        font-weight: 300;
+    }
+    .body p, .body2 p{
+        font-size: 12pt;
+        font-weight: 300;
+    }
+}
+@media screen and (min-width: 540px) {
+    .body, .body2, .body3{
+        font-size: 8pt;
+        max-width: unset;
+    }
+    .body h1, .body3 h1{
+        font-size: 25pt;
+        font-weight: 300;
+    }
+    .body p, .body2 p{
+        font-size: 8pt;
+        font-weight: 300;
+        max-width: unset;
+    }
+}
+@media screen and (min-width: 760px) {
+    .body, .body2, .body3{
+        font-size: 17pt;
+        max-width: unset;
+    }
+    .body h1, .body3 h1{
+        font-size: 35pt !important;
+        font-weight: 300;
+    }
+    .body p, .body2 p{
+        font-size: 17pt;
+        font-weight: 300;
+        max-width: unset; 
+    }
+    .body-body div{
+        max-width: unset;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .body, .body2, .body3{
+        font-size: 17pt;
+        max-width: 900px;
+    }
+    .body3{
+        max-width: unset;
+    }
+    .body h1, .body3 h1{
+        font-size: 35pt;
+        font-weight: 300;
+    }
+    .body p, .body2 p{
+        font-size: 17pt;
+        font-weight: 300;
+        max-width: 900px; 
+    }
+    .body-body div{
+        max-width: 900px;
+    }
+}
+@media screen and (min-width: 1280px) {
+    .body, .body2, .body3{
+        font-size: 17pt;
+        max-width: 400px;
+    }
+    .body3{
+        max-width: unset;
+    }
+    .body h1, .body3 h1{
+        font-size: 35pt;
+        font-weight: 300;
+    }
+    .body p, .body2 p{
+        font-size: 17pt;
+        font-weight: 300;
+        max-width: unset; 
+    }
+    .body-body div{
+        max-width: 1000px;
+    }
+}
+
+@media screen and (max-width: 539px) {
+    .services .rounded-circle3{
+        display: none;
+    }
+    .services{
+        height: unset;
+        overflow-y: unset;
+        overflow-x: unset;
+        position: relative;
+    }
+    .service-content{
+        height: fit-content;
+        position: relative;
+        padding-bottom: 70px;
+    }
+}
+@media screen and (min-width: 760px) {
+    .services .rounded-circle3{
+        display: none;
+    }
+    .services{
+        height: unset;
+        overflow-y: unset;
+        overflow-x: unset;
+        position: relative;
+    }
+    .service-content{
+        height: fit-content;
+        position: relative;
+        padding-bottom: 70px;
+    }
+}
