@@ -1,0 +1,40 @@
+
+.container3-s{
+    background: linear-gradient(0deg, #dadada, #fff);
+    background-repeat: no-repeat;
+}
+.body3-s{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    align-items: start;
+    justify-content: center;
+    overflow: scroll;
+}
+.body3-s p{
+    max-width: 600px;
+}
+.body-body-s{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    /* overflow: scroll; */
+}
+.body-body-s div{
+    padding: 20px;
+    border-radius: 15px;
+    background: #ffffff3d;
+    min-width: 200px;
+    max-width: 400px;
+}
+.s{
+    overflow: scroll;
+}
